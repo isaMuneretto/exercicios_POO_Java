@@ -1,7 +1,5 @@
 package Carro;
 
-import Relogio.Relogio;
-
 import java.util.Scanner;
 
 public class Main {
