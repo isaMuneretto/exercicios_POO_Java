@@ -7,13 +7,13 @@ public class Main {
         Produto produto = new Produto();
         Scanner leia = new Scanner(System.in);
 
-        System.out.println("Digite o nome do produto:");
-        String nome = leia.nextLine();
+        System.out.println("Informe o nome do produto:");
+        produto.nome = leia.next();
 
-        System.out.println("Digite preço do produto:");
+        System.out.println("Informe preço do produto:");
         produto.preco = leia.nextDouble();
 
-        System.out.println("Digite a quantidade do produto em estoque: ");
+        System.out.println("Informe a quantidade do produto: ");
         produto.quantidade = leia.nextInt();
 
         produto.valorTotal();
